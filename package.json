@@ -1,0 +1,25 @@
+{
+  "name": "gimme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-modules index.mjs",
+    "pie": "node --experimental-modules pie.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "download-file": "^0.1.5",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "react": "^16.6.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "semver": "^5.6.0",
+    "tar": "^4.4.8",
+    "tar-stream": "^1.6.2"
+  }
+}
